@@ -1,0 +1,1623 @@
+The system is: Linux - 5.4.0-xlnx-v2020.1-zynqmp-fpga - aarch64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/fpga/opencv-3.4.1/build/CMakeFiles/3.13.4/CompilerIdCXX/a.out"
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/fpga/opencv-3.4.1/build/CMakeFiles/3.13.4/CompilerIdC/a.out"
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_50c25/fast"
+/usr/bin/make -f CMakeFiles/cmTC_50c25.dir/build.make CMakeFiles/cmTC_50c25.dir/build
+make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_50c25.dir/testCXXCompiler.cxx.o
+/usr/bin/c++    -fPIE   -o CMakeFiles/cmTC_50c25.dir/testCXXCompiler.cxx.o -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_50c25
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50c25.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_50c25.dir/testCXXCompiler.cxx.o  -o cmTC_50c25 
+make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_23b4c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_23b4c.dir/build.make CMakeFiles/cmTC_23b4c.dir/build
+make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_23b4c.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++    -fPIE   -o CMakeFiles/cmTC_23b4c.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_23b4c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23b4c.dir/link.txt --verbose=1
+/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_23b4c.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_23b4c 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/8/lto-wrapper
+Target: aarch64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 8.3.0-6' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --disable-libphobos --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu
+Thread model: posix
+gcc version 8.3.0 (Debian 8.3.0-6) 
+COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/8/:/usr/lib/gcc/aarch64-linux-gnu/8/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/8/:/usr/lib/gcc/aarch64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/8/:/usr/lib/gcc/aarch64-linux-gnu/8/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/8/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_23b4c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+ /usr/lib/gcc/aarch64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccLAWfjt.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -o cmTC_23b4c /usr/lib/gcc/aarch64-linux-gnu/8/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/8/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/8 -L/usr/lib/gcc/aarch64-linux-gnu/8/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/8/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/8/../../.. CMakeFiles/cmTC_23b4c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/8/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/8/../../../aarch64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_23b4c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_23b4c/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_23b4c.dir/build.make CMakeFiles/cmTC_23b4c.dir/build]
+  ignore line: [make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_23b4c.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++    -fPIE   -o CMakeFiles/cmTC_23b4c.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_23b4c]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23b4c.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_23b4c.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_23b4c ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/8/lto-wrapper]
+  ignore line: [Target: aarch64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 8.3.0-6' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --disable-libphobos --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.3.0 (Debian 8.3.0-6) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/8/:/usr/lib/gcc/aarch64-linux-gnu/8/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/8/:/usr/lib/gcc/aarch64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/8/:/usr/lib/gcc/aarch64-linux-gnu/8/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/8/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_23b4c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
+  link line: [ /usr/lib/gcc/aarch64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccLAWfjt.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -o cmTC_23b4c /usr/lib/gcc/aarch64-linux-gnu/8/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/8/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/8 -L/usr/lib/gcc/aarch64-linux-gnu/8/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/8/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/8/../../.. CMakeFiles/cmTC_23b4c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/8/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/8/../../../aarch64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/aarch64-linux-gnu/8/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/aarch64-linux-gnu/8/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/8/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccLAWfjt.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+    arg [-X] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-maarch64linux] ==> ignore
+    arg [--fix-cortex-a53-843419] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_23b4c] ==> ignore
+    arg [/usr/lib/gcc/aarch64-linux-gnu/8/../../../aarch64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/aarch64-linux-gnu/8/../../../aarch64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/aarch64-linux-gnu/8/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/aarch64-linux-gnu/8] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/8]
+    arg [-L/usr/lib/gcc/aarch64-linux-gnu/8/../../../aarch64-linux-gnu] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/8/../../../aarch64-linux-gnu]
+    arg [-L/usr/lib/gcc/aarch64-linux-gnu/8/../../../../lib] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/8/../../../../lib]
+    arg [-L/lib/aarch64-linux-gnu] ==> dir [/lib/aarch64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/aarch64-linux-gnu] ==> dir [/usr/lib/aarch64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/aarch64-linux-gnu/8/../../..] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/8/../../..]
+    arg [CMakeFiles/cmTC_23b4c.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/aarch64-linux-gnu/8/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/aarch64-linux-gnu/8/../../../aarch64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/8] ==> [/usr/lib/gcc/aarch64-linux-gnu/8]
+  collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/8/../../../aarch64-linux-gnu] ==> [/usr/lib/aarch64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/8/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/aarch64-linux-gnu] ==> [/lib/aarch64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/aarch64-linux-gnu] ==> [/usr/lib/aarch64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/8/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/usr/lib/gcc/aarch64-linux-gnu/8;/usr/lib/aarch64-linux-gnu;/usr/lib;/lib/aarch64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++2a] compiler features compiled with the following output:
+Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a5d1a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a5d1a.dir/build.make CMakeFiles/cmTC_a5d1a.dir/build
+make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a5d1a.dir/feature_tests.cxx.o
+/usr/bin/c++    -fPIE   -std=c++2a -o CMakeFiles/cmTC_a5d1a.dir/feature_tests.cxx.o -c /home/fpga/opencv-3.4.1/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_a5d1a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5d1a.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_a5d1a.dir/feature_tests.cxx.o  -o cmTC_a5d1a 
+make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++17] compiler features compiled with the following output:
+Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_04860/fast"
+/usr/bin/make -f CMakeFiles/cmTC_04860.dir/build.make CMakeFiles/cmTC_04860.dir/build
+make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_04860.dir/feature_tests.cxx.o
+/usr/bin/c++    -fPIE   -std=c++17 -o CMakeFiles/cmTC_04860.dir/feature_tests.cxx.o -c /home/fpga/opencv-3.4.1/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_04860
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04860.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_04860.dir/feature_tests.cxx.o  -o cmTC_04860 
+make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8c6b3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8c6b3.dir/build.make CMakeFiles/cmTC_8c6b3.dir/build
+make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8c6b3.dir/feature_tests.cxx.o
+/usr/bin/c++    -fPIE   -std=c++14 -o CMakeFiles/cmTC_8c6b3.dir/feature_tests.cxx.o -c /home/fpga/opencv-3.4.1/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_8c6b3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8c6b3.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_8c6b3.dir/feature_tests.cxx.o  -o cmTC_8c6b3 
+make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_514f4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_514f4.dir/build.make CMakeFiles/cmTC_514f4.dir/build
+make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_514f4.dir/feature_tests.cxx.o
+/usr/bin/c++    -fPIE   -std=c++11 -o CMakeFiles/cmTC_514f4.dir/feature_tests.cxx.o -c /home/fpga/opencv-3.4.1/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_514f4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_514f4.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_514f4.dir/feature_tests.cxx.o  -o cmTC_514f4 
+make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5a7b3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5a7b3.dir/build.make CMakeFiles/cmTC_5a7b3.dir/build
+make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5a7b3.dir/feature_tests.cxx.o
+/usr/bin/c++    -fPIE   -std=c++98 -o CMakeFiles/cmTC_5a7b3.dir/feature_tests.cxx.o -c /home/fpga/opencv-3.4.1/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_5a7b3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5a7b3.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_5a7b3.dir/feature_tests.cxx.o  -o cmTC_5a7b3 
+make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_24ddc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_24ddc.dir/build.make CMakeFiles/cmTC_24ddc.dir/build
+make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_24ddc.dir/testCCompiler.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_24ddc.dir/testCCompiler.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_24ddc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_24ddc.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_24ddc.dir/testCCompiler.c.o  -o cmTC_24ddc 
+make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b6ea2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b6ea2.dir/build.make CMakeFiles/cmTC_b6ea2.dir/build
+make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b6ea2.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_b6ea2.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.13/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_b6ea2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6ea2.dir/link.txt --verbose=1
+/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_b6ea2.dir/CMakeCCompilerABI.c.o  -o cmTC_b6ea2 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/8/lto-wrapper
+Target: aarch64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 8.3.0-6' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --disable-libphobos --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu
+Thread model: posix
+gcc version 8.3.0 (Debian 8.3.0-6) 
+COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/8/:/usr/lib/gcc/aarch64-linux-gnu/8/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/8/:/usr/lib/gcc/aarch64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/8/:/usr/lib/gcc/aarch64-linux-gnu/8/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/8/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_b6ea2' '-mlittle-endian' '-mabi=lp64'
+ /usr/lib/gcc/aarch64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccbVXpBk.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -o cmTC_b6ea2 /usr/lib/gcc/aarch64-linux-gnu/8/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/8/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/8 -L/usr/lib/gcc/aarch64-linux-gnu/8/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/8/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/8/../../.. CMakeFiles/cmTC_b6ea2.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-linux-gnu/8/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/8/../../../aarch64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_b6ea2' '-mlittle-endian' '-mabi=lp64'
+make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_b6ea2/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_b6ea2.dir/build.make CMakeFiles/cmTC_b6ea2.dir/build]
+  ignore line: [make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_b6ea2.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_b6ea2.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.13/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_b6ea2]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6ea2.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_b6ea2.dir/CMakeCCompilerABI.c.o  -o cmTC_b6ea2 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/8/lto-wrapper]
+  ignore line: [Target: aarch64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 8.3.0-6' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --disable-libphobos --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.3.0 (Debian 8.3.0-6) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/8/:/usr/lib/gcc/aarch64-linux-gnu/8/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/8/:/usr/lib/gcc/aarch64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/8/:/usr/lib/gcc/aarch64-linux-gnu/8/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/8/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_b6ea2' '-mlittle-endian' '-mabi=lp64']
+  link line: [ /usr/lib/gcc/aarch64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccbVXpBk.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -o cmTC_b6ea2 /usr/lib/gcc/aarch64-linux-gnu/8/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/8/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/8 -L/usr/lib/gcc/aarch64-linux-gnu/8/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/8/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/8/../../.. CMakeFiles/cmTC_b6ea2.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-linux-gnu/8/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/8/../../../aarch64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/aarch64-linux-gnu/8/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/aarch64-linux-gnu/8/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/8/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccbVXpBk.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+    arg [-X] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-maarch64linux] ==> ignore
+    arg [--fix-cortex-a53-843419] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_b6ea2] ==> ignore
+    arg [/usr/lib/gcc/aarch64-linux-gnu/8/../../../aarch64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/aarch64-linux-gnu/8/../../../aarch64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/aarch64-linux-gnu/8/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/aarch64-linux-gnu/8] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/8]
+    arg [-L/usr/lib/gcc/aarch64-linux-gnu/8/../../../aarch64-linux-gnu] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/8/../../../aarch64-linux-gnu]
+    arg [-L/usr/lib/gcc/aarch64-linux-gnu/8/../../../../lib] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/8/../../../../lib]
+    arg [-L/lib/aarch64-linux-gnu] ==> dir [/lib/aarch64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/aarch64-linux-gnu] ==> dir [/usr/lib/aarch64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/aarch64-linux-gnu/8/../../..] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/8/../../..]
+    arg [CMakeFiles/cmTC_b6ea2.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/aarch64-linux-gnu/8/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/aarch64-linux-gnu/8/../../../aarch64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/8] ==> [/usr/lib/gcc/aarch64-linux-gnu/8]
+  collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/8/../../../aarch64-linux-gnu] ==> [/usr/lib/aarch64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/8/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/aarch64-linux-gnu] ==> [/lib/aarch64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/aarch64-linux-gnu] ==> [/usr/lib/aarch64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/8/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/lib/gcc/aarch64-linux-gnu/8;/usr/lib/aarch64-linux-gnu;/usr/lib;/lib/aarch64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8d7e4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8d7e4.dir/build.make CMakeFiles/cmTC_8d7e4.dir/build
+make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8d7e4.dir/feature_tests.c.o
+/usr/bin/cc   -fPIE   -std=c11 -o CMakeFiles/cmTC_8d7e4.dir/feature_tests.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_8d7e4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8d7e4.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_8d7e4.dir/feature_tests.c.o  -o cmTC_8d7e4 
+make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f849a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f849a.dir/build.make CMakeFiles/cmTC_f849a.dir/build
+make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f849a.dir/feature_tests.c.o
+/usr/bin/cc   -fPIE   -std=c99 -o CMakeFiles/cmTC_f849a.dir/feature_tests.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_f849a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f849a.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_f849a.dir/feature_tests.c.o  -o cmTC_f849a 
+make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_23347/fast"
+/usr/bin/make -f CMakeFiles/cmTC_23347.dir/build.make CMakeFiles/cmTC_23347.dir/build
+make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_23347.dir/feature_tests.c.o
+/usr/bin/cc   -fPIE   -std=c90 -o CMakeFiles/cmTC_23347.dir/feature_tests.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_23347
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23347.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_23347.dir/feature_tests.c.o  -o cmTC_23347 
+make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cb820/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cb820.dir/build.make CMakeFiles/cmTC_cb820.dir/build
+make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cb820.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_cb820.dir/CheckIncludeFile.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_cb820
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb820.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG    -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_cb820.dir/CheckIncludeFile.c.o  -o cmTC_cb820 
+make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the posix_memalign exist passed with the following output:
+Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_afe9b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_afe9b.dir/build.make CMakeFiles/cmTC_afe9b.dir/build
+make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_afe9b.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_afe9b.dir/CheckSymbolExists.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_afe9b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_afe9b.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG    -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_afe9b.dir/CheckSymbolExists.c.o  -o cmTC_afe9b 
+make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+
+File /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef posix_memalign
+  return ((int*)(&posix_memalign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the include file malloc.h exists passed with the following output:
+Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cc0a5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cc0a5.dir/build.make CMakeFiles/cmTC_cc0a5.dir/build
+make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cc0a5.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_cc0a5.dir/CheckIncludeFile.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_cc0a5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc0a5.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG    -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_cc0a5.dir/CheckIncludeFile.c.o  -o cmTC_cc0a5 
+make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the memalign exist passed with the following output:
+Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e2758/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e2758.dir/build.make CMakeFiles/cmTC_e2758.dir/build
+make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e2758.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_e2758.dir/CheckSymbolExists.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_e2758
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2758.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG    -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_e2758.dir/CheckSymbolExists.c.o  -o cmTC_e2758 
+make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+
+File /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memalign
+  return ((int*)(&memalign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3095e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3095e.dir/build.make CMakeFiles/cmTC_3095e.dir/build
+make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3095e.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_3095e.dir/CheckIncludeFile.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_3095e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3095e.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG    -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_3095e.dir/CheckIncludeFile.c.o  -o cmTC_3095e 
+make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3aedd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3aedd.dir/build.make CMakeFiles/cmTC_3aedd.dir/build
+make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3aedd.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_3aedd.dir/CheckIncludeFile.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_3aedd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3aedd.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG    -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_3aedd.dir/CheckIncludeFile.c.o  -o cmTC_3aedd 
+make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a9d2a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a9d2a.dir/build.make CMakeFiles/cmTC_a9d2a.dir/build
+make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a9d2a.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_a9d2a.dir/CheckIncludeFile.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_a9d2a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a9d2a.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG    -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_a9d2a.dir/CheckIncludeFile.c.o  -o cmTC_a9d2a 
+make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1d183/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1d183.dir/build.make CMakeFiles/cmTC_1d183.dir/build
+make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1d183.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_1d183.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c
+Linking C executable cmTC_1d183
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d183.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG    -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_1d183.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o  -o cmTC_1d183 
+make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the system is big endian passed with the following output:
+Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a046b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a046b.dir/build.make CMakeFiles/cmTC_a046b.dir/build
+make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a046b.dir/TestEndianess.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_a046b.dir/TestEndianess.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTC_a046b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a046b.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG    -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_a046b.dir/TestEndianess.c.o  -o cmTC_a046b 
+make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the include file assert.h exists passed with the following output:
+Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d8c39/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d8c39.dir/build.make CMakeFiles/cmTC_d8c39.dir/build
+make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d8c39.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_d8c39.dir/CheckIncludeFile.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d8c39
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8c39.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG    -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_d8c39.dir/CheckIncludeFile.c.o  -o cmTC_d8c39 
+make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file dlfcn.h exists passed with the following output:
+Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_80aa3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_80aa3.dir/build.make CMakeFiles/cmTC_80aa3.dir/build
+make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_80aa3.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_80aa3.dir/CheckIncludeFile.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_80aa3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_80aa3.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG    -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_80aa3.dir/CheckIncludeFile.c.o  -o cmTC_80aa3 
+make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9c874/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9c874.dir/build.make CMakeFiles/cmTC_9c874.dir/build
+make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9c874.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_9c874.dir/CheckIncludeFile.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_9c874
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9c874.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG    -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_9c874.dir/CheckIncludeFile.c.o  -o cmTC_9c874 
+make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fa7a1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fa7a1.dir/build.make CMakeFiles/cmTC_fa7a1.dir/build
+make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fa7a1.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_fa7a1.dir/CheckIncludeFile.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_fa7a1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fa7a1.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG    -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_fa7a1.dir/CheckIncludeFile.c.o  -o cmTC_fa7a1 
+make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file limits.h exists passed with the following output:
+Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b9d57/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b9d57.dir/build.make CMakeFiles/cmTC_b9d57.dir/build
+make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b9d57.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_b9d57.dir/CheckIncludeFile.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_b9d57
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b9d57.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG    -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_b9d57.dir/CheckIncludeFile.c.o  -o cmTC_b9d57 
+make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4d91c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4d91c.dir/build.make CMakeFiles/cmTC_4d91c.dir/build
+make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4d91c.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_4d91c.dir/CheckIncludeFile.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_4d91c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4d91c.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG    -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_4d91c.dir/CheckIncludeFile.c.o  -o cmTC_4d91c 
+make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file search.h exists passed with the following output:
+Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_90bf8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_90bf8.dir/build.make CMakeFiles/cmTC_90bf8.dir/build
+make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_90bf8.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_90bf8.dir/CheckIncludeFile.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_90bf8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_90bf8.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG    -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_90bf8.dir/CheckIncludeFile.c.o  -o cmTC_90bf8 
+make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dfb01/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dfb01.dir/build.make CMakeFiles/cmTC_dfb01.dir/build
+make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dfb01.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_dfb01.dir/CheckIncludeFile.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_dfb01
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dfb01.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG    -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_dfb01.dir/CheckIncludeFile.c.o  -o cmTC_dfb01 
+make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0d0fe/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0d0fe.dir/build.make CMakeFiles/cmTC_0d0fe.dir/build
+make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0d0fe.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_0d0fe.dir/CheckIncludeFile.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_0d0fe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0d0fe.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG    -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_0d0fe.dir/CheckIncludeFile.c.o  -o cmTC_0d0fe 
+make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/time.h exists passed with the following output:
+Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_26973/fast"
+/usr/bin/make -f CMakeFiles/cmTC_26973.dir/build.make CMakeFiles/cmTC_26973.dir/build
+make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_26973.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_26973.dir/CheckIncludeFile.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_26973
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_26973.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG    -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_26973.dir/CheckIncludeFile.c.o  -o cmTC_26973 
+make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e03f7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e03f7.dir/build.make CMakeFiles/cmTC_e03f7.dir/build
+make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e03f7.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_e03f7.dir/CheckIncludeFile.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_e03f7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e03f7.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG    -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_e03f7.dir/CheckIncludeFile.c.o  -o cmTC_e03f7 
+make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test C_HAS_inline succeeded with the following output:
+Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7ffb0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7ffb0.dir/build.make CMakeFiles/cmTC_7ffb0.dir/build
+make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7ffb0.dir/src.c.o
+/usr/bin/cc -Dinline=inline  -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DC_HAS_inline -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_7ffb0.dir/src.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/src.c
+/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/src.c:3:29: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+         static inline foo_t static_foo() {return 0;}
+                             ^~~~~~~~~~
+/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/src.c:4:15: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+         foo_t foo(){return 0;}
+               ^~~
+/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/src.c: In function 'main':
+/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/src.c:5:22: warning: unused parameter 'argc' [-Wunused-parameter]
+         int main(int argc, char *argv[]) {return 0;}
+                  ~~~~^~~~
+/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/src.c:5:34: warning: unused parameter 'argv' [-Wunused-parameter]
+         int main(int argc, char *argv[]) {return 0;}
+                            ~~~~~~^~~~~~
+Linking C executable cmTC_7ffb0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ffb0.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DC_HAS_inline -O3 -DNDEBUG    -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_7ffb0.dir/src.c.o  -o cmTC_7ffb0 
+make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+        typedef int foo_t;
+        static inline foo_t static_foo() {return 0;}
+        foo_t foo(){return 0;}
+        int main(int argc, char *argv[]) {return 0;}
+Determining size of signed short passed with the following output:
+Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_56f82/fast"
+/usr/bin/make -f CMakeFiles/cmTC_56f82.dir/build.make CMakeFiles/cmTC_56f82.dir/build
+make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_56f82.dir/SIZEOF_SIGNED_SHORT.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_56f82.dir/SIZEOF_SIGNED_SHORT.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CheckTypeSize/SIZEOF_SIGNED_SHORT.c
+Linking C executable cmTC_56f82
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56f82.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG    -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_56f82.dir/SIZEOF_SIGNED_SHORT.c.o  -o cmTC_56f82 
+make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e392d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e392d.dir/build.make CMakeFiles/cmTC_e392d.dir/build
+make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e392d.dir/SIZEOF_UNSIGNED_SHORT.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_e392d.dir/SIZEOF_UNSIGNED_SHORT.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CheckTypeSize/SIZEOF_UNSIGNED_SHORT.c
+Linking C executable cmTC_e392d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e392d.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG    -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_e392d.dir/SIZEOF_UNSIGNED_SHORT.c.o  -o cmTC_e392d 
+make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of signed int passed with the following output:
+Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5f5e0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5f5e0.dir/build.make CMakeFiles/cmTC_5f5e0.dir/build
+make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5f5e0.dir/SIZEOF_SIGNED_INT.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_5f5e0.dir/SIZEOF_SIGNED_INT.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CheckTypeSize/SIZEOF_SIGNED_INT.c
+Linking C executable cmTC_5f5e0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f5e0.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG    -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_5f5e0.dir/SIZEOF_SIGNED_INT.c.o  -o cmTC_5f5e0 
+make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of unsigned int passed with the following output:
+Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f0824/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f0824.dir/build.make CMakeFiles/cmTC_f0824.dir/build
+make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f0824.dir/SIZEOF_UNSIGNED_INT.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_f0824.dir/SIZEOF_UNSIGNED_INT.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CheckTypeSize/SIZEOF_UNSIGNED_INT.c
+Linking C executable cmTC_f0824
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0824.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG    -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_f0824.dir/SIZEOF_UNSIGNED_INT.c.o  -o cmTC_f0824 
+make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of signed long passed with the following output:
+Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a7dec/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a7dec.dir/build.make CMakeFiles/cmTC_a7dec.dir/build
+make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a7dec.dir/SIZEOF_SIGNED_LONG.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_a7dec.dir/SIZEOF_SIGNED_LONG.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CheckTypeSize/SIZEOF_SIGNED_LONG.c
+Linking C executable cmTC_a7dec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7dec.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG    -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_a7dec.dir/SIZEOF_SIGNED_LONG.c.o  -o cmTC_a7dec 
+make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of unsigned long passed with the following output:
+Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1b756/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1b756.dir/build.make CMakeFiles/cmTC_1b756.dir/build
+make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1b756.dir/SIZEOF_UNSIGNED_LONG.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_1b756.dir/SIZEOF_UNSIGNED_LONG.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CheckTypeSize/SIZEOF_UNSIGNED_LONG.c
+Linking C executable cmTC_1b756
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b756.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG    -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_1b756.dir/SIZEOF_UNSIGNED_LONG.c.o  -o cmTC_1b756 
+make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of signed long long passed with the following output:
+Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d2675/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d2675.dir/build.make CMakeFiles/cmTC_d2675.dir/build
+make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d2675.dir/SIZEOF_SIGNED_LONG_LONG.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_d2675.dir/SIZEOF_SIGNED_LONG_LONG.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CheckTypeSize/SIZEOF_SIGNED_LONG_LONG.c
+Linking C executable cmTC_d2675
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d2675.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG    -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_d2675.dir/SIZEOF_SIGNED_LONG_LONG.c.o  -o cmTC_d2675 
+make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of unsigned long long passed with the following output:
+Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c85bd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c85bd.dir/build.make CMakeFiles/cmTC_c85bd.dir/build
+make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c85bd.dir/SIZEOF_UNSIGNED_LONG_LONG.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_c85bd.dir/SIZEOF_UNSIGNED_LONG_LONG.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CheckTypeSize/SIZEOF_UNSIGNED_LONG_LONG.c
+Linking C executable cmTC_c85bd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c85bd.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG    -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_c85bd.dir/SIZEOF_UNSIGNED_LONG_LONG.c.o  -o cmTC_c85bd 
+make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of unsigned char * passed with the following output:
+Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8e471/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8e471.dir/build.make CMakeFiles/cmTC_8e471.dir/build
+make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8e471.dir/SIZEOF_UNSIGNED_CHAR_P.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_8e471.dir/SIZEOF_UNSIGNED_CHAR_P.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CheckTypeSize/SIZEOF_UNSIGNED_CHAR_P.c
+Linking C executable cmTC_8e471
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8e471.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG    -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_8e471.dir/SIZEOF_UNSIGNED_CHAR_P.c.o  -o cmTC_8e471 
+make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of size_t passed with the following output:
+Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_df648/fast"
+/usr/bin/make -f CMakeFiles/cmTC_df648.dir/build.make CMakeFiles/cmTC_df648.dir/build
+make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_df648.dir/SIZEOF_SIZE_T.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_df648.dir/SIZEOF_SIZE_T.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CheckTypeSize/SIZEOF_SIZE_T.c
+Linking C executable cmTC_df648
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df648.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG    -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_df648.dir/SIZEOF_SIZE_T.c.o  -o cmTC_df648 
+make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of ptrdiff_t passed with the following output:
+Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9cb4c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9cb4c.dir/build.make CMakeFiles/cmTC_9cb4c.dir/build
+make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9cb4c.dir/SIZEOF_PTRDIFF_T.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_9cb4c.dir/SIZEOF_PTRDIFF_T.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CheckTypeSize/SIZEOF_PTRDIFF_T.c
+Linking C executable cmTC_9cb4c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9cb4c.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG    -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_9cb4c.dir/SIZEOF_PTRDIFF_T.c.o  -o cmTC_9cb4c 
+make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function floor exists passed with the following output:
+Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4a5a4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4a5a4.dir/build.make CMakeFiles/cmTC_4a5a4.dir/build
+make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4a5a4.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=floor -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_4a5a4.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function 'floor' [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.13/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro 'CHECK_FUNCTION_EXISTS'
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_4a5a4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a5a4.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=floor -O3 -DNDEBUG    -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_4a5a4.dir/CheckFunctionExists.c.o  -o cmTC_4a5a4 /usr/lib/aarch64-linux-gnu/libm.so 
+make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pow exists passed with the following output:
+Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0af04/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0af04.dir/build.make CMakeFiles/cmTC_0af04.dir/build
+make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0af04.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=pow -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_0af04.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function 'pow' [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.13/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro 'CHECK_FUNCTION_EXISTS'
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_0af04
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0af04.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=pow -O3 -DNDEBUG    -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_0af04.dir/CheckFunctionExists.c.o  -o cmTC_0af04 /usr/lib/aarch64-linux-gnu/libm.so 
+make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function sqrt exists passed with the following output:
+Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_05ef1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_05ef1.dir/build.make CMakeFiles/cmTC_05ef1.dir/build
+make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_05ef1.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=sqrt -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_05ef1.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function 'sqrt' [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.13/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro 'CHECK_FUNCTION_EXISTS'
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_05ef1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_05ef1.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=sqrt -O3 -DNDEBUG    -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_05ef1.dir/CheckFunctionExists.c.o  -o cmTC_05ef1 /usr/lib/aarch64-linux-gnu/libm.so 
+make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function isascii exists passed with the following output:
+Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_12feb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_12feb.dir/build.make CMakeFiles/cmTC_12feb.dir/build
+make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_12feb.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=isascii -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_12feb.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function 'isascii' [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.13/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro 'CHECK_FUNCTION_EXISTS'
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_12feb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12feb.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=isascii -O3 -DNDEBUG    -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_12feb.dir/CheckFunctionExists.c.o  -o cmTC_12feb 
+make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function memset exists passed with the following output:
+Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f1ce3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f1ce3.dir/build.make CMakeFiles/cmTC_f1ce3.dir/build
+make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f1ce3.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=memset -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_f1ce3.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function 'memset' [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.13/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro 'CHECK_FUNCTION_EXISTS'
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_f1ce3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1ce3.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=memset -O3 -DNDEBUG    -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_f1ce3.dir/CheckFunctionExists.c.o  -o cmTC_f1ce3 
+make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function mmap exists passed with the following output:
+Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d02fd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d02fd.dir/build.make CMakeFiles/cmTC_d02fd.dir/build
+make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d02fd.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=mmap -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_d02fd.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d02fd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d02fd.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=mmap -O3 -DNDEBUG    -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_d02fd.dir/CheckFunctionExists.c.o  -o cmTC_d02fd 
+make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function getopt exists passed with the following output:
+Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b9fb9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b9fb9.dir/build.make CMakeFiles/cmTC_b9fb9.dir/build
+make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b9fb9.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=getopt -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_b9fb9.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b9fb9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b9fb9.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=getopt -O3 -DNDEBUG    -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_b9fb9.dir/CheckFunctionExists.c.o  -o cmTC_b9fb9 
+make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function memmove exists passed with the following output:
+Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7788c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7788c.dir/build.make CMakeFiles/cmTC_7788c.dir/build
+make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7788c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=memmove -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_7788c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function 'memmove' [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.13/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro 'CHECK_FUNCTION_EXISTS'
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_7788c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7788c.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=memmove -O3 -DNDEBUG    -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_7788c.dir/CheckFunctionExists.c.o  -o cmTC_7788c 
+make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strcasecmp exists passed with the following output:
+Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1f6a7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1f6a7.dir/build.make CMakeFiles/cmTC_1f6a7.dir/build
+make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1f6a7.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strcasecmp -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_1f6a7.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function 'strcasecmp' [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.13/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro 'CHECK_FUNCTION_EXISTS'
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_1f6a7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1f6a7.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strcasecmp -O3 -DNDEBUG    -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_1f6a7.dir/CheckFunctionExists.c.o  -o cmTC_1f6a7 
+make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strchr exists passed with the following output:
+Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a5b7d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a5b7d.dir/build.make CMakeFiles/cmTC_a5b7d.dir/build
+make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a5b7d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strchr -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_a5b7d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function 'strchr' [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.13/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro 'CHECK_FUNCTION_EXISTS'
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_a5b7d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5b7d.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strchr -O3 -DNDEBUG    -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_a5b7d.dir/CheckFunctionExists.c.o  -o cmTC_a5b7d 
+make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strrchr exists passed with the following output:
+Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_07116/fast"
+/usr/bin/make -f CMakeFiles/cmTC_07116.dir/build.make CMakeFiles/cmTC_07116.dir/build
+make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_07116.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strrchr -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_07116.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function 'strrchr' [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.13/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro 'CHECK_FUNCTION_EXISTS'
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_07116
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07116.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strrchr -O3 -DNDEBUG    -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_07116.dir/CheckFunctionExists.c.o  -o cmTC_07116 
+make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strstr exists passed with the following output:
+Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fe865/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fe865.dir/build.make CMakeFiles/cmTC_fe865.dir/build
+make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fe865.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strstr -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_fe865.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function 'strstr' [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.13/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro 'CHECK_FUNCTION_EXISTS'
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_fe865
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fe865.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strstr -O3 -DNDEBUG    -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_fe865.dir/CheckFunctionExists.c.o  -o cmTC_fe865 
+make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strtol exists passed with the following output:
+Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9dc9d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9dc9d.dir/build.make CMakeFiles/cmTC_9dc9d.dir/build
+make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9dc9d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strtol -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_9dc9d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9dc9d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9dc9d.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strtol -O3 -DNDEBUG    -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_9dc9d.dir/CheckFunctionExists.c.o  -o cmTC_9dc9d 
+make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strtol exists passed with the following output:
+Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5b623/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5b623.dir/build.make CMakeFiles/cmTC_5b623.dir/build
+make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5b623.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strtol -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_5b623.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5b623
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b623.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strtol -O3 -DNDEBUG    -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_5b623.dir/CheckFunctionExists.c.o  -o cmTC_5b623 
+make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strtoull exists passed with the following output:
+Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d388b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d388b.dir/build.make CMakeFiles/cmTC_d388b.dir/build
+make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d388b.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strtoull -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_d388b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d388b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d388b.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strtoull -O3 -DNDEBUG    -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_d388b.dir/CheckFunctionExists.c.o  -o cmTC_d388b 
+make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function lfind exists passed with the following output:
+Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_204c1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_204c1.dir/build.make CMakeFiles/cmTC_204c1.dir/build
+make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_204c1.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=lfind -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_204c1.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_204c1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_204c1.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=lfind -O3 -DNDEBUG    -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_204c1.dir/CheckFunctionExists.c.o  -o cmTC_204c1 
+make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test HAVE_SNPRINTF succeeded with the following output:
+Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_452a1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_452a1.dir/build.make CMakeFiles/cmTC_452a1.dir/build
+make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_452a1.dir/src.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DHAVE_SNPRINTF -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_452a1.dir/src.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_452a1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_452a1.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DHAVE_SNPRINTF -O3 -DNDEBUG    -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_452a1.dir/src.c.o  -o cmTC_452a1 
+make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <stdio.h>
+int main(void) {
+  char buf[10];
+  snprintf(buf, 10, "Test %d", 1);
+  return 0;
+}
+Determining if the system is big endian passed with the following output:
+Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_74bd3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_74bd3.dir/build.make CMakeFiles/cmTC_74bd3.dir/build
+make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_74bd3.dir/TestEndianess.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_74bd3.dir/TestEndianess.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTC_74bd3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_74bd3.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG    -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_74bd3.dir/TestEndianess.c.o  -o cmTC_74bd3 
+make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the include file /usr/include/libpng/png.h exists passed with the following output:
+Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ffc64/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ffc64.dir/build.make CMakeFiles/cmTC_ffc64.dir/build
+make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ffc64.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_ffc64.dir/CheckIncludeFile.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_ffc64
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ffc64.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG    -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_ffc64.dir/CheckIncludeFile.c.o  -o cmTC_ffc64 
+make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file semaphore.h exists passed with the following output:
+Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4dad1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4dad1.dir/build.make CMakeFiles/cmTC_4dad1.dir/build
+make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4dad1.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_4dad1.dir/CheckIncludeFile.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_4dad1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4dad1.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG    -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_4dad1.dir/CheckIncludeFile.c.o  -o cmTC_4dad1 
+make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file linux/videodev2.h exists passed with the following output:
+Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_60cde/fast"
+/usr/bin/make -f CMakeFiles/cmTC_60cde.dir/build.make CMakeFiles/cmTC_60cde.dir/build
+make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_60cde.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_60cde.dir/CheckIncludeFile.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_60cde
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_60cde.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG    -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_60cde.dir/CheckIncludeFile.c.o  -o cmTC_60cde 
+make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8631e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8631e.dir/build.make CMakeFiles/cmTC_8631e.dir/build
+make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8631e.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_8631e.dir/CheckIncludeFile.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_8631e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8631e.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG    -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_8631e.dir/CheckIncludeFile.c.o  -o cmTC_8631e 
+make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the pthread_create exist passed with the following output:
+Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_93887/fast"
+/usr/bin/make -f CMakeFiles/cmTC_93887.dir/build.make CMakeFiles/cmTC_93887.dir/build
+make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_93887.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_93887.dir/CheckSymbolExists.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_93887
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_93887.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG    -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_93887.dir/CheckSymbolExists.c.o  -o cmTC_93887 
+make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
+
+File /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
