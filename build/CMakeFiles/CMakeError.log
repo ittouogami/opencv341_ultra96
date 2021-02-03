@@ -7,18 +7,18 @@ Compilation failed:
 ===== BUILD LOG =====
 Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_0da57/fast"
-/usr/bin/make -f CMakeFiles/cmTC_0da57.dir/build.make CMakeFiles/cmTC_0da57.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_c05bb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c05bb.dir/build.make CMakeFiles/cmTC_c05bb.dir/build
 make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_0da57.dir/src.cxx.o
-/usr/bin/c++    -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -o CMakeFiles/cmTC_0da57.dir/src.cxx.o -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/src.cxx
+Building CXX object CMakeFiles/cmTC_c05bb.dir/src.cxx.o
+/usr/bin/c++    -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -o CMakeFiles/cmTC_c05bb.dir/src.cxx.o -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/src.cxx
 cc1plus: warning: command line option '-Wmissing-prototypes' is valid for C/ObjC but not for C++
 /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
  #pragma
  
-Linking CXX executable cmTC_0da57
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0da57.dir/link.txt --verbose=1
-/usr/bin/c++    -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_0da57.dir/src.cxx.o  -o cmTC_0da57 
+Linking CXX executable cmTC_c05bb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c05bb.dir/link.txt --verbose=1
+/usr/bin/c++    -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_c05bb.dir/src.cxx.o  -o cmTC_c05bb 
 make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
 
 ===== END =====
@@ -32,18 +32,18 @@ Compilation failed:
 ===== BUILD LOG =====
 Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9dbc2/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9dbc2.dir/build.make CMakeFiles/cmTC_9dbc2.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_8686c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8686c.dir/build.make CMakeFiles/cmTC_8686c.dir/build
 make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_9dbc2.dir/src.cxx.o
-/usr/bin/c++    -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wstrict-prototypes -o CMakeFiles/cmTC_9dbc2.dir/src.cxx.o -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/src.cxx
+Building CXX object CMakeFiles/cmTC_8686c.dir/src.cxx.o
+/usr/bin/c++    -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wstrict-prototypes -o CMakeFiles/cmTC_8686c.dir/src.cxx.o -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/src.cxx
 cc1plus: warning: command line option '-Wstrict-prototypes' is valid for C/ObjC but not for C++
 /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
  #pragma
  
-Linking CXX executable cmTC_9dbc2
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9dbc2.dir/link.txt --verbose=1
-/usr/bin/c++    -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_9dbc2.dir/src.cxx.o  -o cmTC_9dbc2 
+Linking CXX executable cmTC_8686c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8686c.dir/link.txt --verbose=1
+/usr/bin/c++    -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_8686c.dir/src.cxx.o  -o cmTC_8686c 
 make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
 
 ===== END =====
@@ -57,18 +57,18 @@ Compilation failed:
 ===== BUILD LOG =====
 Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_69ce3/fast"
-/usr/bin/make -f CMakeFiles/cmTC_69ce3.dir/build.make CMakeFiles/cmTC_69ce3.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_f9cb0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f9cb0.dir/build.make CMakeFiles/cmTC_f9cb0.dir/build
 make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_69ce3.dir/src.c.o
-/usr/bin/cc   -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -o CMakeFiles/cmTC_69ce3.dir/src.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/src.c
+Building C object CMakeFiles/cmTC_f9cb0.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -o CMakeFiles/cmTC_f9cb0.dir/src.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/src.c
 cc1: warning: command line option '-Wsign-promo' is valid for C++/ObjC++ but not for C
 /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring #pragma   [-Wunknown-pragmas]
  #pragma
  
-Linking C executable cmTC_69ce3
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_69ce3.dir/link.txt --verbose=1
-/usr/bin/cc   -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_69ce3.dir/src.c.o  -o cmTC_69ce3 
+Linking C executable cmTC_f9cb0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9cb0.dir/link.txt --verbose=1
+/usr/bin/cc   -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_f9cb0.dir/src.c.o  -o cmTC_f9cb0 
 make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
 
 ===== END =====
@@ -82,18 +82,18 @@ Compilation failed:
 ===== BUILD LOG =====
 Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c1264/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c1264.dir/build.make CMakeFiles/cmTC_c1264.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_9c12d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9c12d.dir/build.make CMakeFiles/cmTC_9c12d.dir/build
 make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_c1264.dir/src.c.o
-/usr/bin/cc   -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -o CMakeFiles/cmTC_c1264.dir/src.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/src.c
+Building C object CMakeFiles/cmTC_9c12d.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -o CMakeFiles/cmTC_9c12d.dir/src.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/src.c
 cc1: warning: command line option '-Wno-delete-non-virtual-dtor' is valid for C++/ObjC++ but not for C
 /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring #pragma   [-Wunknown-pragmas]
  #pragma
  
-Linking C executable cmTC_c1264
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c1264.dir/link.txt --verbose=1
-/usr/bin/cc   -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_c1264.dir/src.c.o  -o cmTC_c1264 
+Linking C executable cmTC_9c12d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9c12d.dir/link.txt --verbose=1
+/usr/bin/cc   -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_9c12d.dir/src.c.o  -o cmTC_9c12d 
 make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
 
 ===== END =====
@@ -107,18 +107,18 @@ Compilation failed:
 ===== BUILD LOG =====
 Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_7c35d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_7c35d.dir/build.make CMakeFiles/cmTC_7c35d.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_26702/fast"
+/usr/bin/make -f CMakeFiles/cmTC_26702.dir/build.make CMakeFiles/cmTC_26702.dir/build
 make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_7c35d.dir/src.cxx.o
-/usr/bin/c++    -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -o CMakeFiles/cmTC_7c35d.dir/src.cxx.o -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/src.cxx
+Building CXX object CMakeFiles/cmTC_26702.dir/src.cxx.o
+/usr/bin/c++    -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -o CMakeFiles/cmTC_26702.dir/src.cxx.o -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/src.cxx
 /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
  #pragma
  
 cc1plus: warning: unrecognized command line option '-Wno-unnamed-type-template-args'
-Linking CXX executable cmTC_7c35d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c35d.dir/link.txt --verbose=1
-/usr/bin/c++    -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_7c35d.dir/src.cxx.o  -o cmTC_7c35d 
+Linking CXX executable cmTC_26702
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_26702.dir/link.txt --verbose=1
+/usr/bin/c++    -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_26702.dir/src.cxx.o  -o cmTC_26702 
 make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
 
 ===== END =====
@@ -132,18 +132,18 @@ Compilation failed:
 ===== BUILD LOG =====
 Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ed70a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ed70a.dir/build.make CMakeFiles/cmTC_ed70a.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_6e69f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6e69f.dir/build.make CMakeFiles/cmTC_6e69f.dir/build
 make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ed70a.dir/src.c.o
-/usr/bin/cc   -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-unnamed-type-template-args -o CMakeFiles/cmTC_ed70a.dir/src.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/src.c
+Building C object CMakeFiles/cmTC_6e69f.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-unnamed-type-template-args -o CMakeFiles/cmTC_6e69f.dir/src.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/src.c
 /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring #pragma   [-Wunknown-pragmas]
  #pragma
  
 cc1: warning: unrecognized command line option '-Wno-unnamed-type-template-args'
-Linking C executable cmTC_ed70a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed70a.dir/link.txt --verbose=1
-/usr/bin/cc   -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_ed70a.dir/src.c.o  -o cmTC_ed70a 
+Linking C executable cmTC_6e69f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6e69f.dir/link.txt --verbose=1
+/usr/bin/cc   -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_6e69f.dir/src.c.o  -o cmTC_6e69f 
 make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
 
 ===== END =====
@@ -157,18 +157,18 @@ Compilation failed:
 ===== BUILD LOG =====
 Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_cee2a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_cee2a.dir/build.make CMakeFiles/cmTC_cee2a.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_e83b7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e83b7.dir/build.make CMakeFiles/cmTC_e83b7.dir/build
 make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_cee2a.dir/src.c.o
-/usr/bin/cc   -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/cmTC_cee2a.dir/src.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/src.c
+Building C object CMakeFiles/cmTC_e83b7.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/cmTC_e83b7.dir/src.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/src.c
 cc1: warning: command line option '-fvisibility-inlines-hidden' is valid for C++/ObjC++ but not for C
 /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring #pragma   [-Wunknown-pragmas]
  #pragma
  
-Linking C executable cmTC_cee2a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cee2a.dir/link.txt --verbose=1
-/usr/bin/cc   -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_cee2a.dir/src.c.o  -o cmTC_cee2a 
+Linking C executable cmTC_e83b7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e83b7.dir/link.txt --verbose=1
+/usr/bin/cc   -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_e83b7.dir/src.c.o  -o cmTC_e83b7 
 make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
 
 ===== END =====
@@ -176,37 +176,37 @@ make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
 Determining if the include file io.h exists failed with the following output:
 Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1b07f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_1b07f.dir/build.make CMakeFiles/cmTC_1b07f.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_a4169/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a4169.dir/build.make CMakeFiles/cmTC_a4169.dir/build
 make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_1b07f.dir/CheckIncludeFile.c.o
-/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_1b07f.dir/CheckIncludeFile.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Building C object CMakeFiles/cmTC_a4169.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_a4169.dir/CheckIncludeFile.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
 /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: io.h: No such file or directory
  #include <io.h>
           ^~~~~~
 compilation terminated.
-make[1]: *** [CMakeFiles/cmTC_1b07f.dir/build.make:66: CMakeFiles/cmTC_1b07f.dir/CheckIncludeFile.c.o] Error 1
+make[1]: *** [CMakeFiles/cmTC_a4169.dir/build.make:66: CMakeFiles/cmTC_a4169.dir/CheckIncludeFile.c.o] Error 1
 make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_1b07f/fast] Error 2
+make: *** [Makefile:121: cmTC_a4169/fast] Error 2
 
 
 Determining size of INT8 failed with the following output:
 Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c6739/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c6739.dir/build.make CMakeFiles/cmTC_c6739.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_7a6d5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7a6d5.dir/build.make CMakeFiles/cmTC_7a6d5.dir/build
 make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_c6739.dir/int8.c.o
-/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_c6739.dir/int8.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CheckTypeSize/int8.c
+Building C object CMakeFiles/cmTC_7a6d5.dir/int8.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_7a6d5.dir/int8.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CheckTypeSize/int8.c
 /home/fpga/opencv-3.4.1/build/CMakeFiles/CheckTypeSize/int8.c:23:22: error: 'INT8' undeclared here (not in a function); did you mean 'INT8_C'?
  #define SIZE (sizeof(INT8))
                       ^~~~
 /home/fpga/opencv-3.4.1/build/CMakeFiles/CheckTypeSize/int8.c:25:12: note: in expansion of macro 'SIZE'
    ('0' + ((SIZE / 10000)%10)),
             ^~~~
-make[1]: *** [CMakeFiles/cmTC_c6739.dir/build.make:66: CMakeFiles/cmTC_c6739.dir/int8.c.o] Error 1
+make[1]: *** [CMakeFiles/cmTC_7a6d5.dir/build.make:66: CMakeFiles/cmTC_7a6d5.dir/int8.c.o] Error 1
 make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_c6739/fast] Error 2
+make: *** [Makefile:121: cmTC_7a6d5/fast] Error 2
 
 /home/fpga/opencv-3.4.1/build/CMakeFiles/CheckTypeSize/int8.c:
 #include <sys/types.h>
@@ -260,20 +260,20 @@ int main(int argc, char *argv[])
 Determining size of INT16 failed with the following output:
 Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_46999/fast"
-/usr/bin/make -f CMakeFiles/cmTC_46999.dir/build.make CMakeFiles/cmTC_46999.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_81d57/fast"
+/usr/bin/make -f CMakeFiles/cmTC_81d57.dir/build.make CMakeFiles/cmTC_81d57.dir/build
 make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_46999.dir/int16.c.o
-/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_46999.dir/int16.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CheckTypeSize/int16.c
+Building C object CMakeFiles/cmTC_81d57.dir/int16.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_81d57.dir/int16.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CheckTypeSize/int16.c
 /home/fpga/opencv-3.4.1/build/CMakeFiles/CheckTypeSize/int16.c:23:22: error: 'INT16' undeclared here (not in a function); did you mean 'INT16_C'?
  #define SIZE (sizeof(INT16))
                       ^~~~~
 /home/fpga/opencv-3.4.1/build/CMakeFiles/CheckTypeSize/int16.c:25:12: note: in expansion of macro 'SIZE'
    ('0' + ((SIZE / 10000)%10)),
             ^~~~
-make[1]: *** [CMakeFiles/cmTC_46999.dir/build.make:66: CMakeFiles/cmTC_46999.dir/int16.c.o] Error 1
+make[1]: *** [CMakeFiles/cmTC_81d57.dir/build.make:66: CMakeFiles/cmTC_81d57.dir/int16.c.o] Error 1
 make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_46999/fast] Error 2
+make: *** [Makefile:121: cmTC_81d57/fast] Error 2
 
 /home/fpga/opencv-3.4.1/build/CMakeFiles/CheckTypeSize/int16.c:
 #include <sys/types.h>
@@ -327,20 +327,20 @@ int main(int argc, char *argv[])
 Determining size of INT32 failed with the following output:
 Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_2d980/fast"
-/usr/bin/make -f CMakeFiles/cmTC_2d980.dir/build.make CMakeFiles/cmTC_2d980.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_6ad57/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6ad57.dir/build.make CMakeFiles/cmTC_6ad57.dir/build
 make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_2d980.dir/int32.c.o
-/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_2d980.dir/int32.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CheckTypeSize/int32.c
+Building C object CMakeFiles/cmTC_6ad57.dir/int32.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_6ad57.dir/int32.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CheckTypeSize/int32.c
 /home/fpga/opencv-3.4.1/build/CMakeFiles/CheckTypeSize/int32.c:23:22: error: 'INT32' undeclared here (not in a function); did you mean 'INT32_C'?
  #define SIZE (sizeof(INT32))
                       ^~~~~
 /home/fpga/opencv-3.4.1/build/CMakeFiles/CheckTypeSize/int32.c:25:12: note: in expansion of macro 'SIZE'
    ('0' + ((SIZE / 10000)%10)),
             ^~~~
-make[1]: *** [CMakeFiles/cmTC_2d980.dir/build.make:66: CMakeFiles/cmTC_2d980.dir/int32.c.o] Error 1
+make[1]: *** [CMakeFiles/cmTC_6ad57.dir/build.make:66: CMakeFiles/cmTC_6ad57.dir/int32.c.o] Error 1
 make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_2d980/fast] Error 2
+make: *** [Makefile:121: cmTC_6ad57/fast] Error 2
 
 /home/fpga/opencv-3.4.1/build/CMakeFiles/CheckTypeSize/int32.c:
 #include <sys/types.h>
@@ -394,20 +394,20 @@ int main(int argc, char *argv[])
 Determining if the function setmode exists failed with the following output:
 Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1e06e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_1e06e.dir/build.make CMakeFiles/cmTC_1e06e.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_2b4e1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2b4e1.dir/build.make CMakeFiles/cmTC_2b4e1.dir/build
 make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_1e06e.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=setmode -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_1e06e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
-Linking C executable cmTC_1e06e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e06e.dir/link.txt --verbose=1
-/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=setmode -O3 -DNDEBUG    -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_1e06e.dir/CheckFunctionExists.c.o  -o cmTC_1e06e 
-/usr/bin/ld: CMakeFiles/cmTC_1e06e.dir/CheckFunctionExists.c.o: in function `main':
+Building C object CMakeFiles/cmTC_2b4e1.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=setmode -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_2b4e1.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2b4e1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b4e1.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=setmode -O3 -DNDEBUG    -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_2b4e1.dir/CheckFunctionExists.c.o  -o cmTC_2b4e1 
+/usr/bin/ld: CMakeFiles/cmTC_2b4e1.dir/CheckFunctionExists.c.o: in function `main':
 CheckFunctionExists.c:(.text.startup.main+0x10): undefined reference to `setmode'
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_1e06e.dir/build.make:87: cmTC_1e06e] Error 1
+make[1]: *** [CMakeFiles/cmTC_2b4e1.dir/build.make:87: cmTC_2b4e1] Error 1
 make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_1e06e/fast] Error 2
+make: *** [Makefile:121: cmTC_2b4e1/fast] Error 2
 
 
 Build output check failed:
@@ -419,18 +419,18 @@ Compilation failed:
 ===== BUILD LOG =====
 Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_6ec34/fast"
-/usr/bin/make -f CMakeFiles/cmTC_6ec34.dir/build.make CMakeFiles/cmTC_6ec34.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_4d059/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4d059.dir/build.make CMakeFiles/cmTC_4d059.dir/build
 make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_6ec34.dir/src.c.o
-/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith  -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -Wno-implicit-function-declaration -Wno-uninitialized -Wno-missing-prototypes -Wno-unused-but-set-parameter -Wno-missing-declarations -Wno-unused -Wno-shadow -Wno-sign-compare -Wno-strict-overflow -Wno-pointer-compare  -O3 -DNDEBUG -fPIE   -Wno-absolute-value -o CMakeFiles/cmTC_6ec34.dir/src.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/src.c
+Building C object CMakeFiles/cmTC_4d059.dir/src.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith  -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -Wno-implicit-function-declaration -Wno-uninitialized -Wno-missing-prototypes -Wno-unused-but-set-parameter -Wno-missing-declarations -Wno-unused -Wno-shadow -Wno-sign-compare -Wno-strict-overflow -Wno-pointer-compare  -O3 -DNDEBUG -fPIE   -Wno-absolute-value -o CMakeFiles/cmTC_4d059.dir/src.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/src.c
 /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring #pragma   [-Wunknown-pragmas]
  #pragma
  
 cc1: warning: unrecognized command line option '-Wno-absolute-value'
-Linking C executable cmTC_6ec34
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6ec34.dir/link.txt --verbose=1
-/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith  -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -Wno-implicit-function-declaration -Wno-uninitialized -Wno-missing-prototypes -Wno-unused-but-set-parameter -Wno-missing-declarations -Wno-unused -Wno-shadow -Wno-sign-compare -Wno-strict-overflow -Wno-pointer-compare  -O3 -DNDEBUG    -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_6ec34.dir/src.c.o  -o cmTC_6ec34 
+Linking C executable cmTC_4d059
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4d059.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith  -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -Wno-implicit-function-declaration -Wno-uninitialized -Wno-missing-prototypes -Wno-unused-but-set-parameter -Wno-missing-declarations -Wno-unused -Wno-shadow -Wno-sign-compare -Wno-strict-overflow -Wno-pointer-compare  -O3 -DNDEBUG    -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_4d059.dir/src.c.o  -o cmTC_4d059 
 make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
 
 ===== END =====
@@ -438,54 +438,54 @@ make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
 Determining if the include file linux/videodev.h exists failed with the following output:
 Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_54878/fast"
-/usr/bin/make -f CMakeFiles/cmTC_54878.dir/build.make CMakeFiles/cmTC_54878.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_1f74c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1f74c.dir/build.make CMakeFiles/cmTC_1f74c.dir/build
 make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_54878.dir/CheckIncludeFile.c.o
-/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_54878.dir/CheckIncludeFile.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Building C object CMakeFiles/cmTC_1f74c.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_1f74c.dir/CheckIncludeFile.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
 /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: linux/videodev.h: No such file or directory
  #include <linux/videodev.h>
           ^~~~~~~~~~~~~~~~~~
 compilation terminated.
-make[1]: *** [CMakeFiles/cmTC_54878.dir/build.make:66: CMakeFiles/cmTC_54878.dir/CheckIncludeFile.c.o] Error 1
+make[1]: *** [CMakeFiles/cmTC_1f74c.dir/build.make:66: CMakeFiles/cmTC_1f74c.dir/CheckIncludeFile.c.o] Error 1
 make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_54878/fast] Error 2
+make: *** [Makefile:121: cmTC_1f74c/fast] Error 2
 
 
 Determining if the include file sys/videoio.h exists failed with the following output:
 Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_0eb1f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_0eb1f.dir/build.make CMakeFiles/cmTC_0eb1f.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_2fd74/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2fd74.dir/build.make CMakeFiles/cmTC_2fd74.dir/build
 make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_0eb1f.dir/CheckIncludeFile.c.o
-/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_0eb1f.dir/CheckIncludeFile.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Building C object CMakeFiles/cmTC_2fd74.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_2fd74.dir/CheckIncludeFile.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
 /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: sys/videoio.h: No such file or directory
  #include <sys/videoio.h>
           ^~~~~~~~~~~~~~~
 compilation terminated.
-make[1]: *** [CMakeFiles/cmTC_0eb1f.dir/build.make:66: CMakeFiles/cmTC_0eb1f.dir/CheckIncludeFile.c.o] Error 1
+make[1]: *** [CMakeFiles/cmTC_2fd74.dir/build.make:66: CMakeFiles/cmTC_2fd74.dir/CheckIncludeFile.c.o] Error 1
 make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_0eb1f/fast] Error 2
+make: *** [Makefile:121: cmTC_2fd74/fast] Error 2
 
 
 Determining if the function sgemm_ exists failed with the following output:
 Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c6f8b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c6f8b.dir/build.make CMakeFiles/cmTC_c6f8b.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_80213/fast"
+/usr/bin/make -f CMakeFiles/cmTC_80213.dir/build.make CMakeFiles/cmTC_80213.dir/build
 make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_c6f8b.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=sgemm_ -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_c6f8b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
-Linking C executable cmTC_c6f8b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6f8b.dir/link.txt --verbose=1
-/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=sgemm_ -O3 -DNDEBUG    -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_c6f8b.dir/CheckFunctionExists.c.o  -o cmTC_c6f8b 
-/usr/bin/ld: CMakeFiles/cmTC_c6f8b.dir/CheckFunctionExists.c.o: in function `main':
+Building C object CMakeFiles/cmTC_80213.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=sgemm_ -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_80213.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_80213
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_80213.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=sgemm_ -O3 -DNDEBUG    -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_80213.dir/CheckFunctionExists.c.o  -o cmTC_80213 
+/usr/bin/ld: CMakeFiles/cmTC_80213.dir/CheckFunctionExists.c.o: in function `main':
 CheckFunctionExists.c:(.text.startup.main+0x10): undefined reference to `sgemm_'
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_c6f8b.dir/build.make:87: cmTC_c6f8b] Error 1
+make[1]: *** [CMakeFiles/cmTC_80213.dir/build.make:87: cmTC_80213] Error 1
 make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_c6f8b/fast] Error 2
+make: *** [Makefile:121: cmTC_80213/fast] Error 2
 
 
 Build output check failed:
@@ -497,18 +497,18 @@ Compilation failed:
 ===== BUILD LOG =====
 Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_68807/fast"
-/usr/bin/make -f CMakeFiles/cmTC_68807.dir/build.make CMakeFiles/cmTC_68807.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_571ba/fast"
+/usr/bin/make -f CMakeFiles/cmTC_571ba.dir/build.make CMakeFiles/cmTC_571ba.dir/build
 make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_68807.dir/src.cxx.o
-/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated  -O3 -DNDEBUG -fPIE   -Wno-missing-prototypes -o CMakeFiles/cmTC_68807.dir/src.cxx.o -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/src.cxx
+Building CXX object CMakeFiles/cmTC_571ba.dir/src.cxx.o
+/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated  -O3 -DNDEBUG -fPIE   -Wno-missing-prototypes -o CMakeFiles/cmTC_571ba.dir/src.cxx.o -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/src.cxx
 cc1plus: warning: command line option '-Wno-missing-prototypes' is valid for C/ObjC but not for C++
 /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
  #pragma
  
-Linking CXX executable cmTC_68807
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68807.dir/link.txt --verbose=1
-/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated  -O3 -DNDEBUG    -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_68807.dir/src.cxx.o  -o cmTC_68807 
+Linking CXX executable cmTC_571ba
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_571ba.dir/link.txt --verbose=1
+/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated  -O3 -DNDEBUG    -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_571ba.dir/src.cxx.o  -o cmTC_571ba 
 make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
 
 ===== END =====
@@ -522,18 +522,18 @@ Compilation failed:
 ===== BUILD LOG =====
 Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e8d15/fast"
-/usr/bin/make -f CMakeFiles/cmTC_e8d15.dir/build.make CMakeFiles/cmTC_e8d15.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_62097/fast"
+/usr/bin/make -f CMakeFiles/cmTC_62097.dir/build.make CMakeFiles/cmTC_62097.dir/build
 make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_e8d15.dir/src.cxx.o
-/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith   -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O3 -DNDEBUG -fPIE   -Wno-tautological-undefined-compare -o CMakeFiles/cmTC_e8d15.dir/src.cxx.o -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/src.cxx
+Building CXX object CMakeFiles/cmTC_62097.dir/src.cxx.o
+/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith   -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O3 -DNDEBUG -fPIE   -Wno-tautological-undefined-compare -o CMakeFiles/cmTC_62097.dir/src.cxx.o -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/src.cxx
 /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
  #pragma
  
 cc1plus: warning: unrecognized command line option '-Wno-tautological-undefined-compare'
-Linking CXX executable cmTC_e8d15
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8d15.dir/link.txt --verbose=1
-/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith   -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O3 -DNDEBUG    -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_e8d15.dir/src.cxx.o  -o cmTC_e8d15 
+Linking CXX executable cmTC_62097
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62097.dir/link.txt --verbose=1
+/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith   -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O3 -DNDEBUG    -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_62097.dir/src.cxx.o  -o cmTC_62097 
 make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
 
 ===== END =====
@@ -547,18 +547,18 @@ Compilation failed:
 ===== BUILD LOG =====
 Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9858a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9858a.dir/build.make CMakeFiles/cmTC_9858a.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_f3701/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f3701.dir/build.make CMakeFiles/cmTC_f3701.dir/build
 make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_9858a.dir/src.cxx.o
-/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith   -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable  -O3 -DNDEBUG -fPIE   -Wno-shorten-64-to-32 -o CMakeFiles/cmTC_9858a.dir/src.cxx.o -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/src.cxx
+Building CXX object CMakeFiles/cmTC_f3701.dir/src.cxx.o
+/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith   -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable  -O3 -DNDEBUG -fPIE   -Wno-shorten-64-to-32 -o CMakeFiles/cmTC_f3701.dir/src.cxx.o -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/src.cxx
 /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
  #pragma
  
 cc1plus: warning: unrecognized command line option '-Wno-shorten-64-to-32'
-Linking CXX executable cmTC_9858a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9858a.dir/link.txt --verbose=1
-/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith   -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable  -O3 -DNDEBUG    -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_9858a.dir/src.cxx.o  -o cmTC_9858a 
+Linking CXX executable cmTC_f3701
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f3701.dir/link.txt --verbose=1
+/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith   -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable  -O3 -DNDEBUG    -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_f3701.dir/src.cxx.o  -o cmTC_f3701 
 make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
 
 ===== END =====
@@ -572,18 +572,18 @@ Compilation failed:
 ===== BUILD LOG =====
 Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_30d29/fast"
-/usr/bin/make -f CMakeFiles/cmTC_30d29.dir/build.make CMakeFiles/cmTC_30d29.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_13fea/fast"
+/usr/bin/make -f CMakeFiles/cmTC_13fea.dir/build.make CMakeFiles/cmTC_13fea.dir/build
 make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_30d29.dir/src.cxx.o
-/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith   -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof  -O3 -DNDEBUG -fPIE   -Wno-enum-compare-switch -o CMakeFiles/cmTC_30d29.dir/src.cxx.o -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/src.cxx
+Building CXX object CMakeFiles/cmTC_13fea.dir/src.cxx.o
+/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith   -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof  -O3 -DNDEBUG -fPIE   -Wno-enum-compare-switch -o CMakeFiles/cmTC_13fea.dir/src.cxx.o -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/src.cxx
 /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
  #pragma
  
 cc1plus: warning: unrecognized command line option '-Wno-enum-compare-switch'
-Linking CXX executable cmTC_30d29
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30d29.dir/link.txt --verbose=1
-/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith   -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof  -O3 -DNDEBUG    -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_30d29.dir/src.cxx.o  -o cmTC_30d29 
+Linking CXX executable cmTC_13fea
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_13fea.dir/link.txt --verbose=1
+/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith   -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof  -O3 -DNDEBUG    -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_13fea.dir/src.cxx.o  -o cmTC_13fea 
 make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
 
 ===== END =====
@@ -591,30 +591,30 @@ make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
 Performing C++ SOURCE FILE Test CXX_HAS_MFPU_NEON failed with the following output:
 Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d9b73/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d9b73.dir/build.make CMakeFiles/cmTC_d9b73.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_10584/fast"
+/usr/bin/make -f CMakeFiles/cmTC_10584.dir/build.make CMakeFiles/cmTC_10584.dir/build
 make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_d9b73.dir/src.cxx.o
-/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -funwind-tables -fweb -fwrapv -frename-registers -fsched2-use-superblocks -fsched2-use-traces -fsched-stalled-insns-dep=100 -fsched-stalled-insns=2 -DCXX_HAS_MFPU_NEON -O3 -DNDEBUG -fPIE   -mfpu=neon -o CMakeFiles/cmTC_d9b73.dir/src.cxx.o -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/src.cxx
+Building CXX object CMakeFiles/cmTC_10584.dir/src.cxx.o
+/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -funwind-tables -fweb -fwrapv -frename-registers -fsched2-use-superblocks -fsched2-use-traces -fsched-stalled-insns-dep=100 -fsched-stalled-insns=2 -DCXX_HAS_MFPU_NEON -O3 -DNDEBUG -fPIE   -mfpu=neon -o CMakeFiles/cmTC_10584.dir/src.cxx.o -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/src.cxx
 c++: error: unrecognized command line option '-mfpu=neon'
-make[1]: *** [CMakeFiles/cmTC_d9b73.dir/build.make:66: CMakeFiles/cmTC_d9b73.dir/src.cxx.o] Error 1
+make[1]: *** [CMakeFiles/cmTC_10584.dir/build.make:66: CMakeFiles/cmTC_10584.dir/src.cxx.o] Error 1
 make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_d9b73/fast] Error 2
+make: *** [Makefile:121: cmTC_10584/fast] Error 2
 
 Source file was:
 int main() { return 0; }
 Performing C SOURCE FILE Test C_HAS_MFPU_NEON failed with the following output:
 Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d8338/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d8338.dir/build.make CMakeFiles/cmTC_d8338.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_af68b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_af68b.dir/build.make CMakeFiles/cmTC_af68b.dir/build
 make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d8338.dir/src.c.o
-/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -funwind-tables -fweb -fwrapv -frename-registers -fsched2-use-superblocks -fsched2-use-traces -fsched-stalled-insns-dep=100 -fsched-stalled-insns=2 -DC_HAS_MFPU_NEON -O3 -DNDEBUG -fPIE   -mfpu=neon -o CMakeFiles/cmTC_d8338.dir/src.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/src.c
+Building C object CMakeFiles/cmTC_af68b.dir/src.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -funwind-tables -fweb -fwrapv -frename-registers -fsched2-use-superblocks -fsched2-use-traces -fsched-stalled-insns-dep=100 -fsched-stalled-insns=2 -DC_HAS_MFPU_NEON -O3 -DNDEBUG -fPIE   -mfpu=neon -o CMakeFiles/cmTC_af68b.dir/src.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/src.c
 cc: error: unrecognized command line option '-mfpu=neon'
-make[1]: *** [CMakeFiles/cmTC_d8338.dir/build.make:66: CMakeFiles/cmTC_d8338.dir/src.c.o] Error 1
+make[1]: *** [CMakeFiles/cmTC_af68b.dir/build.make:66: CMakeFiles/cmTC_af68b.dir/src.c.o] Error 1
 make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_d8338/fast] Error 2
+make: *** [Makefile:121: cmTC_af68b/fast] Error 2
 
 Source file was:
 int main(void) { return 0; }
@@ -627,18 +627,18 @@ Compilation failed:
 ===== BUILD LOG =====
 Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b19e9/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b19e9.dir/build.make CMakeFiles/cmTC_b19e9.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_e5481/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e5481.dir/build.make CMakeFiles/cmTC_e5481.dir/build
 make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_b19e9.dir/src.cxx.o
-/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-function -Wno-overloaded-virtual  -O3 -DNDEBUG -fPIE   -Wno-unused-private-field -o CMakeFiles/cmTC_b19e9.dir/src.cxx.o -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/src.cxx
+Building CXX object CMakeFiles/cmTC_e5481.dir/src.cxx.o
+/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-function -Wno-overloaded-virtual  -O3 -DNDEBUG -fPIE   -Wno-unused-private-field -o CMakeFiles/cmTC_e5481.dir/src.cxx.o -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/src.cxx
 /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
  #pragma
  
 cc1plus: warning: unrecognized command line option '-Wno-unused-private-field'
-Linking CXX executable cmTC_b19e9
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b19e9.dir/link.txt --verbose=1
-/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-function -Wno-overloaded-virtual  -O3 -DNDEBUG    -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_b19e9.dir/src.cxx.o  -o cmTC_b19e9 
+Linking CXX executable cmTC_e5481
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e5481.dir/link.txt --verbose=1
+/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-function -Wno-overloaded-virtual  -O3 -DNDEBUG    -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_e5481.dir/src.cxx.o  -o cmTC_e5481 
 make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
 
 ===== END =====
@@ -646,18 +646,18 @@ make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
 Determining if the CL_VERSION_2_2 exist failed with the following output:
 Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8ef26/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8ef26.dir/build.make CMakeFiles/cmTC_8ef26.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_75442/fast"
+/usr/bin/make -f CMakeFiles/cmTC_75442.dir/build.make CMakeFiles/cmTC_75442.dir/build
 make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_8ef26.dir/CheckSymbolExists.c.o
-/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_8ef26.dir/CheckSymbolExists.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Building C object CMakeFiles/cmTC_75442.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_75442.dir/CheckSymbolExists.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
 /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h: No such file or directory
  #include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 compilation terminated.
-make[1]: *** [CMakeFiles/cmTC_8ef26.dir/build.make:66: CMakeFiles/cmTC_8ef26.dir/CheckSymbolExists.c.o] Error 1
+make[1]: *** [CMakeFiles/cmTC_75442.dir/build.make:66: CMakeFiles/cmTC_75442.dir/CheckSymbolExists.c.o] Error 1
 make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_8ef26/fast] Error 2
+make: *** [Makefile:121: cmTC_75442/fast] Error 2
 
 File /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
@@ -677,18 +677,18 @@ int main(int argc, char** argv)
 Determining if the CL_VERSION_2_1 exist failed with the following output:
 Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_60b7f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_60b7f.dir/build.make CMakeFiles/cmTC_60b7f.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_981c8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_981c8.dir/build.make CMakeFiles/cmTC_981c8.dir/build
 make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_60b7f.dir/CheckSymbolExists.c.o
-/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_60b7f.dir/CheckSymbolExists.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Building C object CMakeFiles/cmTC_981c8.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_981c8.dir/CheckSymbolExists.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
 /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h: No such file or directory
  #include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 compilation terminated.
-make[1]: *** [CMakeFiles/cmTC_60b7f.dir/build.make:66: CMakeFiles/cmTC_60b7f.dir/CheckSymbolExists.c.o] Error 1
+make[1]: *** [CMakeFiles/cmTC_981c8.dir/build.make:66: CMakeFiles/cmTC_981c8.dir/CheckSymbolExists.c.o] Error 1
 make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_60b7f/fast] Error 2
+make: *** [Makefile:121: cmTC_981c8/fast] Error 2
 
 File /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
@@ -708,18 +708,18 @@ int main(int argc, char** argv)
 Determining if the CL_VERSION_2_0 exist failed with the following output:
 Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3730a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_3730a.dir/build.make CMakeFiles/cmTC_3730a.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_ee5c2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ee5c2.dir/build.make CMakeFiles/cmTC_ee5c2.dir/build
 make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3730a.dir/CheckSymbolExists.c.o
-/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_3730a.dir/CheckSymbolExists.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Building C object CMakeFiles/cmTC_ee5c2.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_ee5c2.dir/CheckSymbolExists.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
 /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h: No such file or directory
  #include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 compilation terminated.
-make[1]: *** [CMakeFiles/cmTC_3730a.dir/build.make:66: CMakeFiles/cmTC_3730a.dir/CheckSymbolExists.c.o] Error 1
+make[1]: *** [CMakeFiles/cmTC_ee5c2.dir/build.make:66: CMakeFiles/cmTC_ee5c2.dir/CheckSymbolExists.c.o] Error 1
 make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_3730a/fast] Error 2
+make: *** [Makefile:121: cmTC_ee5c2/fast] Error 2
 
 File /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
@@ -739,18 +739,18 @@ int main(int argc, char** argv)
 Determining if the CL_VERSION_1_2 exist failed with the following output:
 Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d7c1e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d7c1e.dir/build.make CMakeFiles/cmTC_d7c1e.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_fa568/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fa568.dir/build.make CMakeFiles/cmTC_fa568.dir/build
 make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d7c1e.dir/CheckSymbolExists.c.o
-/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_d7c1e.dir/CheckSymbolExists.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Building C object CMakeFiles/cmTC_fa568.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_fa568.dir/CheckSymbolExists.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
 /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h: No such file or directory
  #include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 compilation terminated.
-make[1]: *** [CMakeFiles/cmTC_d7c1e.dir/build.make:66: CMakeFiles/cmTC_d7c1e.dir/CheckSymbolExists.c.o] Error 1
+make[1]: *** [CMakeFiles/cmTC_fa568.dir/build.make:66: CMakeFiles/cmTC_fa568.dir/CheckSymbolExists.c.o] Error 1
 make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_d7c1e/fast] Error 2
+make: *** [Makefile:121: cmTC_fa568/fast] Error 2
 
 File /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
@@ -770,18 +770,18 @@ int main(int argc, char** argv)
 Determining if the CL_VERSION_1_1 exist failed with the following output:
 Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a2bb0/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a2bb0.dir/build.make CMakeFiles/cmTC_a2bb0.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_afeeb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_afeeb.dir/build.make CMakeFiles/cmTC_afeeb.dir/build
 make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a2bb0.dir/CheckSymbolExists.c.o
-/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_a2bb0.dir/CheckSymbolExists.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Building C object CMakeFiles/cmTC_afeeb.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_afeeb.dir/CheckSymbolExists.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
 /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h: No such file or directory
  #include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 compilation terminated.
-make[1]: *** [CMakeFiles/cmTC_a2bb0.dir/build.make:66: CMakeFiles/cmTC_a2bb0.dir/CheckSymbolExists.c.o] Error 1
+make[1]: *** [CMakeFiles/cmTC_afeeb.dir/build.make:66: CMakeFiles/cmTC_afeeb.dir/CheckSymbolExists.c.o] Error 1
 make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_a2bb0/fast] Error 2
+make: *** [Makefile:121: cmTC_afeeb/fast] Error 2
 
 File /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
@@ -801,18 +801,18 @@ int main(int argc, char** argv)
 Determining if the CL_VERSION_1_0 exist failed with the following output:
 Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_446f8/fast"
-/usr/bin/make -f CMakeFiles/cmTC_446f8.dir/build.make CMakeFiles/cmTC_446f8.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_a4f60/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a4f60.dir/build.make CMakeFiles/cmTC_a4f60.dir/build
 make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_446f8.dir/CheckSymbolExists.c.o
-/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_446f8.dir/CheckSymbolExists.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Building C object CMakeFiles/cmTC_a4f60.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_a4f60.dir/CheckSymbolExists.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
 /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h: No such file or directory
  #include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 compilation terminated.
-make[1]: *** [CMakeFiles/cmTC_446f8.dir/build.make:66: CMakeFiles/cmTC_446f8.dir/CheckSymbolExists.c.o] Error 1
+make[1]: *** [CMakeFiles/cmTC_a4f60.dir/build.make:66: CMakeFiles/cmTC_a4f60.dir/CheckSymbolExists.c.o] Error 1
 make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_446f8/fast] Error 2
+make: *** [Makefile:121: cmTC_a4f60/fast] Error 2
 
 File /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */

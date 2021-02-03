@@ -1520,11 +1520,11 @@ CPACK_INSTALLED_DIRECTORIES=/home/fpga/opencv-3.4.1;/
 CPACK_INSTALL_CMAKE_PROJECTS=
 CPACK_INSTALL_PREFIX=/usr/local
 CPACK_MODULE_PATH=
-CPACK_NSIS_DISPLAY_NAME=OpenCV unknown
+CPACK_NSIS_DISPLAY_NAME=OpenCV 6080ba8-dirty
 CPACK_NSIS_INSTALLER_ICON_CODE=
 CPACK_NSIS_INSTALLER_MUI_ICON_CODE=
 CPACK_NSIS_INSTALL_ROOT=$PROGRAMFILES
-CPACK_NSIS_PACKAGE_NAME=OpenCV unknown
+CPACK_NSIS_PACKAGE_NAME=OpenCV 6080ba8-dirty
 CPACK_OUTPUT_CONFIG_FILE=/home/fpga/opencv-3.4.1/build/CPackConfig.cmake
 CPACK_PACKAGE_CONTACT=admin@opencv.org
 CPACK_PACKAGE_DEFAULT_LOCATION=/
@@ -1535,13 +1535,13 @@ machine perception in the commercial products. Being a BSD-licensed product,
 OpenCV makes it easy for businesses to utilize and modify the code.
 CPACK_PACKAGE_DESCRIPTION_FILE=/usr/share/cmake-3.13/Templates/CPack.GenericDescription.txt
 CPACK_PACKAGE_DESCRIPTION_SUMMARY=Open Computer Vision Library
-CPACK_PACKAGE_FILE_NAME=OpenCV-unknown-aarch64
-CPACK_PACKAGE_INSTALL_DIRECTORY=OpenCV unknown
-CPACK_PACKAGE_INSTALL_REGISTRY_KEY=OpenCV unknown
+CPACK_PACKAGE_FILE_NAME=OpenCV-6080ba8-dirty-aarch64
+CPACK_PACKAGE_INSTALL_DIRECTORY=OpenCV 6080ba8-dirty
+CPACK_PACKAGE_INSTALL_REGISTRY_KEY=OpenCV 6080ba8-dirty
 CPACK_PACKAGE_NAME=OpenCV
 CPACK_PACKAGE_RELOCATABLE=true
 CPACK_PACKAGE_VENDOR=OpenCV Foundation
-CPACK_PACKAGE_VERSION=unknown
+CPACK_PACKAGE_VERSION=6080ba8-dirty
 CPACK_PACKAGE_VERSION_MAJOR=3
 CPACK_PACKAGE_VERSION_MINOR=4
 CPACK_PACKAGE_VERSION_PATCH=1
@@ -1566,7 +1566,7 @@ CPACK_SOURCE_GENERATOR=TBZ2;TGZ;TXZ;TZ
 CPACK_SOURCE_IGNORE_FILES=/CVS/;/\\.svn/;/\\.bzr/;/\\.hg/;/\\.git/;\\.swp\$;\\.#;/#
 CPACK_SOURCE_INSTALLED_DIRECTORIES=/home/fpga/opencv-3.4.1;/
 CPACK_SOURCE_OUTPUT_CONFIG_FILE=/home/fpga/opencv-3.4.1/build/CPackSourceConfig.cmake
-CPACK_SOURCE_PACKAGE_FILE_NAME=OpenCV-unknown-aarch64
+CPACK_SOURCE_PACKAGE_FILE_NAME=OpenCV-6080ba8-dirty-aarch64
 CPACK_SOURCE_RPM=OFF
 CPACK_SOURCE_TBZ2=ON
 CPACK_SOURCE_TGZ=ON
@@ -1765,7 +1765,7 @@ FIND_PACKAGE_MESSAGE_DETAILS_ZLIB=[/usr/lib/aarch64-linux-gnu/libz.so][/usr/incl
 GENERATE_ABI_DESCRIPTOR=OFF
 GIT_EXECUTABLE=/usr/bin/git
 GIT_FOUND=TRUE
-GIT_RESULT=128
+GIT_RESULT=0
 GIT_VERSION_STRING=2.20.1
 Git_FOUND=TRUE
 HAVE_ASSERT_H=1
@@ -2926,9 +2926,9 @@ OPENCV_SAMPLES_SRC_INSTALL_PATH=share/OpenCV/samples
 OPENCV_SOVERSION=3.4
 OPENCV_TEST_DATA_INSTALL_PATH=share/OpenCV/testdata
 OPENCV_TEST_INSTALL_PATH=bin
-OPENCV_TIMESTAMP=2021-01-31T12:59:55Z
+OPENCV_TIMESTAMP=2021-02-01T07:39:08Z
 OPENCV_TRACE=1
-OPENCV_VCSVERSION=unknown
+OPENCV_VCSVERSION=6080ba8-dirty
 OPENCV_VERSION=3.4.1
 OPENCV_VERSION_FILE=/home/fpga/opencv-3.4.1/modules/core/include/opencv2/core/version.hpp
 OPENCV_VERSION_MAJOR=3
@@ -2960,17 +2960,17 @@ OPT=
 OPT2=
 OUTPUT=Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_93887/fast"
-/usr/bin/make -f CMakeFiles/cmTC_93887.dir/build.make CMakeFiles/cmTC_93887.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_c32ad/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c32ad.dir/build.make CMakeFiles/cmTC_c32ad.dir/build
 make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_93887.dir/CheckSymbolExists.c.o
-/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_93887.dir/CheckSymbolExists.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_93887
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_93887.dir/link.txt --verbose=1
-/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG    -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_93887.dir/CheckSymbolExists.c.o  -o cmTC_93887 
+Building C object CMakeFiles/cmTC_c32ad.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_c32ad.dir/CheckSymbolExists.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_c32ad
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c32ad.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden  -O3 -DNDEBUG    -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_c32ad.dir/CheckSymbolExists.c.o  -o cmTC_c32ad 
 make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
 
-OUTPUT_LINES=Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp;;Run Build Command:"/usr/bin/make" "cmTC_cee2a/fast";/usr/bin/make -f CMakeFiles/cmTC_cee2a.dir/build.make CMakeFiles/cmTC_cee2a.dir/build;make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp';Building C object CMakeFiles/cmTC_cee2a.dir/src.c.o;/usr/bin/cc   -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/cmTC_cee2a.dir/src.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/src.c;cc1: warning: command line option '-fvisibility-inlines-hidden' is valid for C++/ObjC++ but not for C;/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring #pragma   [-Wunknown-pragmas]; #pragma; ;Linking C executable cmTC_cee2a;/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cee2a.dir/link.txt --verbose=1;/usr/bin/cc   -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_cee2a.dir/src.c.o  -o cmTC_cee2a ;make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp';
+OUTPUT_LINES=Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp;;Run Build Command:"/usr/bin/make" "cmTC_e83b7/fast";/usr/bin/make -f CMakeFiles/cmTC_e83b7.dir/build.make CMakeFiles/cmTC_e83b7.dir/build;make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp';Building C object CMakeFiles/cmTC_e83b7.dir/src.c.o;/usr/bin/cc   -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/cmTC_e83b7.dir/src.c.o   -c /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/src.c;cc1: warning: command line option '-fvisibility-inlines-hidden' is valid for C++/ObjC++ but not for C;/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring #pragma   [-Wunknown-pragmas]; #pragma; ;Linking C executable cmTC_e83b7;/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e83b7.dir/link.txt --verbose=1;/usr/bin/cc   -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_e83b7.dir/src.c.o  -o cmTC_e83b7 ;make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp';
 OpenBLAS=
 OpenBLAS_FOUND=OFF
 OpenBLAS_INCLUDE_DIR=OpenBLAS_INCLUDE_DIR-NOTFOUND
@@ -3124,17 +3124,17 @@ TIFF_VERSION_LINES=#define TIFF_VERSION_CLASSIC 42;#define TIFF_VERSION_BIG 43
 TIFF_VERSION_STRING=4.0.9
 TRY_OUT=Change Dir: /home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_fafd4/fast"
-/usr/bin/make -f CMakeFiles/cmTC_fafd4.dir/build.make CMakeFiles/cmTC_fafd4.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_d676d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d676d.dir/build.make CMakeFiles/cmTC_d676d.dir/build
 make[1]: Entering directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_fafd4.dir/opencl.cpp.o
-/usr/bin/c++   -I/home/fpga/opencv-3.4.1/3rdparty/include/opencl/1.2  -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_fafd4.dir/opencl.cpp.o -c /home/fpga/opencv-3.4.1/cmake/checks/opencl.cpp
+Building CXX object CMakeFiles/cmTC_d676d.dir/opencl.cpp.o
+/usr/bin/c++   -I/home/fpga/opencv-3.4.1/3rdparty/include/opencl/1.2  -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -Wno-implicit-fallthrough -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections    -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_d676d.dir/opencl.cpp.o -c /home/fpga/opencv-3.4.1/cmake/checks/opencl.cpp
 /home/fpga/opencv-3.4.1/cmake/checks/opencl.cpp:6:2: error: #error OpenCL is valid
  #error OpenCL is valid
   ^~~~~
-make[1]: *** [CMakeFiles/cmTC_fafd4.dir/build.make:66: CMakeFiles/cmTC_fafd4.dir/opencl.cpp.o] Error 1
+make[1]: *** [CMakeFiles/cmTC_d676d.dir/build.make:66: CMakeFiles/cmTC_d676d.dir/opencl.cpp.o] Error 1
 make[1]: Leaving directory '/home/fpga/opencv-3.4.1/build/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_fafd4/fast] Error 2
+make: *** [Makefile:121: cmTC_d676d/fast] Error 2
 
 Threads_FOUND=TRUE
 UNIX=1
@@ -3311,11 +3311,11 @@ set(CPACK_INSTALLED_DIRECTORIES "/home/fpga/opencv-3.4.1;/")
 set(CPACK_INSTALL_CMAKE_PROJECTS "")
 set(CPACK_INSTALL_PREFIX "/usr/local")
 set(CPACK_MODULE_PATH "")
-set(CPACK_NSIS_DISPLAY_NAME "OpenCV unknown")
+set(CPACK_NSIS_DISPLAY_NAME "OpenCV 6080ba8-dirty")
 set(CPACK_NSIS_INSTALLER_ICON_CODE "")
 set(CPACK_NSIS_INSTALLER_MUI_ICON_CODE "")
 set(CPACK_NSIS_INSTALL_ROOT "$PROGRAMFILES")
-set(CPACK_NSIS_PACKAGE_NAME "OpenCV unknown")
+set(CPACK_NSIS_PACKAGE_NAME "OpenCV 6080ba8-dirty")
 set(CPACK_OUTPUT_CONFIG_FILE "/home/fpga/opencv-3.4.1/build/CPackConfig.cmake")
 set(CPACK_PACKAGE_CONTACT "admin@opencv.org")
 set(CPACK_PACKAGE_DEFAULT_LOCATION "/")
@@ -3326,13 +3326,13 @@ machine perception in the commercial products. Being a BSD-licensed product,
 OpenCV makes it easy for businesses to utilize and modify the code.")
 set(CPACK_PACKAGE_DESCRIPTION_FILE "/usr/share/cmake-3.13/Templates/CPack.GenericDescription.txt")
 set(CPACK_PACKAGE_DESCRIPTION_SUMMARY "Open Computer Vision Library")
-set(CPACK_PACKAGE_FILE_NAME "OpenCV-unknown-aarch64")
-set(CPACK_PACKAGE_INSTALL_DIRECTORY "OpenCV unknown")
-set(CPACK_PACKAGE_INSTALL_REGISTRY_KEY "OpenCV unknown")
+set(CPACK_PACKAGE_FILE_NAME "OpenCV-6080ba8-dirty-aarch64")
+set(CPACK_PACKAGE_INSTALL_DIRECTORY "OpenCV 6080ba8-dirty")
+set(CPACK_PACKAGE_INSTALL_REGISTRY_KEY "OpenCV 6080ba8-dirty")
 set(CPACK_PACKAGE_NAME "OpenCV")
 set(CPACK_PACKAGE_RELOCATABLE "true")
 set(CPACK_PACKAGE_VENDOR "OpenCV Foundation")
-set(CPACK_PACKAGE_VERSION "unknown")
+set(CPACK_PACKAGE_VERSION "6080ba8-dirty")
 set(CPACK_PACKAGE_VERSION_MAJOR "3")
 set(CPACK_PACKAGE_VERSION_MINOR "4")
 set(CPACK_PACKAGE_VERSION_PATCH "1")
@@ -3357,7 +3357,7 @@ set(CPACK_SOURCE_GENERATOR "TBZ2;TGZ;TXZ;TZ")
 set(CPACK_SOURCE_IGNORE_FILES "/CVS/;/\\.svn/;/\\.bzr/;/\\.hg/;/\\.git/;\\.swp\$;\\.#;/#")
 set(CPACK_SOURCE_INSTALLED_DIRECTORIES "/home/fpga/opencv-3.4.1;/")
 set(CPACK_SOURCE_OUTPUT_CONFIG_FILE "/home/fpga/opencv-3.4.1/build/CPackSourceConfig.cmake")
-set(CPACK_SOURCE_PACKAGE_FILE_NAME "OpenCV-unknown-aarch64")
+set(CPACK_SOURCE_PACKAGE_FILE_NAME "OpenCV-6080ba8-dirty-aarch64")
 set(CPACK_SOURCE_RPM "OFF")
 set(CPACK_SOURCE_TBZ2 "ON")
 set(CPACK_SOURCE_TGZ "ON")
